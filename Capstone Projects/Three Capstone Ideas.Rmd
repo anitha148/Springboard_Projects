@@ -1,0 +1,52 @@
+---
+title: "Three ideas for capstone"
+author: "Anitha Pissay"
+date: "August 24, 2018"
+output: html_document
+---
+
+Proposal 1
+
+The Location Affordability Index (LAI) of California gives estimates of the percentage of a family's income dedicated to the combined cost of housing and transportation in a given location. Because what is affordable is different for everyone, users can choose among eight different family profiles--defined by household income, size, and number of commuters--and see the affordability landscape for each one in a neighborhood, city, or region.
+I can get a more complete understanding of the costs of living in a given location by accounting for variations between households, neighborhoods, and regions, all of which impact affordability. For more information, 
+
+https://data.world/hud/lai-california/workspace/data-dictionary 
+(It has about 23200 rows of data with 188 Variables/columns)
+
+Proposal 2 
+
+https://www.cdc.gov/healthyyouth/data/yrbs/overview.htm
+
+The Youth Risk Behavior Surveillance System (YRBSS) monitors six categories of health-related behaviors that contribute to the leading causes of death and disability among youth and adults, including—
+
+ 
+
+Behaviors that contribute to unintentional injuries and violence
+Sexual behaviors related to unintended pregnancy and sexually transmitted diseases, including HIV infection
+Alcohol and other drug use
+Tobacco use
+Unhealthy dietary behaviors
+Inadequate physical activity
+YRBSS also measures the prevalence of obesity and asthma and other health-related behaviors plus sexual identity and sex of sexual contacts.
+
+This data sets has multiple files which is described in this file
+ https://www.cdc.gov/healthyyouth/data/yrbs/pdf/2017/2017_yrbs_sadc_documentation.pdf
+ 
+There are loads of permutations and combinations in this data set to explore and present.
+
+Proposal 3
+
+ 
+This data includes all Bay Area Bike Share trips from 2017 to the present, and is updated daily.
+
+https://cloud.google.com/bigquery/public-data/bay-bike-share#dataset_overview
+
+https://www.fordgobike.com/system-data  (Has about 519K rows with 15 columns for 2017)
+
+How long was the average ride length each year?
+
+Which bikes have been ridden the most?
+
+What are the most popular start and end station pairings?
+
+Does gender play any role in bike rentals?
