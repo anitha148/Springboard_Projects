@@ -16,8 +16,8 @@ output: html_document
 
 ### My area of focus will be based on 
 
->#### **•	Alcohol and other drug use.     
-•	Tobacco use.**
+>#### __•	Alcohol and other drug use.     
+•	Tobacco use.__
 
 ## **What is the problem you want to solve?** ##
 
