@@ -1,5 +1,5 @@
 ---
-title: "Capstone Proposal_AP"
+title: "Capstone Proposal"
 author: "Anitha Pissay"
 date: "August 28, 2018"
 output: html_document
@@ -16,8 +16,8 @@ output: html_document
 
 ### My area of focus will be based on 
 
->#### **•	Alcohol and other drug use.  
-•	Tobacco use.**
+>#### **•	Alcohol and other drug use.**  
+>#### **•	Tobacco use**
 
 
 ## **What is the problem you want to solve?** ##
