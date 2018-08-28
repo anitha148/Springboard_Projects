@@ -7,7 +7,7 @@ output: html_document
 
 ## **Introduction** 
 
-#####The **Youth Risk Behavior Surveillance System (YRBSS)** was developed in 1990 to monitor health behaviors that contribute markedly to the leading causes of death, disability, and social problems among youth and adults in the United States. These behaviors, often established during childhood and early adolescence, include 
+##### The **Youth Risk Behavior Surveillance System (YRBSS)** was developed in 1990 to monitor health behaviors that contribute markedly to the leading causes of death, disability, and social problems among youth and adults in the United States. These behaviors, often established during childhood and early adolescence, include 
 
 •	Behaviors that contribute to unintentional injuries and violence.  
 •	Sexual behaviors related to unintended pregnancy and sexually transmitted infections,including   HIV infection.  
@@ -16,7 +16,7 @@ output: html_document
 
 ### My area of focus will be based on 
 
-> #### ** •	Alcohol and other drug use.     
+>#### **•	Alcohol and other drug use.     
 •	Tobacco use.**
 
 ## **What is the problem you want to solve?** ##
@@ -30,7 +30,7 @@ output: html_document
 
 #### Trend analyses and Regression analyses methods using YRBS data allows to identify changes in the prevalence of risk behaviors over time, and to describe that change. 
 
-## **Who is your client and why do they care about this  problem?**##
+## **Who is your client and why do they care about this  problem?** ##
 
 >### Education Agencies
 Schools have direct contact with 56 million students for at least 6 hours a day during the most critical years of their social, physical, and intellectual development. School health programs can reduce the prevalence of health risk behaviors among youth and have a positive effect on academic performance
@@ -45,19 +45,19 @@ Health Risks Among Minority Youth and monitor Sexual Risk Behaviors: HIV, STD, &
 Parent Engagement. Monitoring Teen’s Activities and what parents and families should know.
 Ways to Engage Child’s School to Support Student Health and Learning and Also helping the child feel connected to school.
 
-## **What data are you going to use for this? How will you acquire this data?**##
+## **What data are you going to use for this? How will you acquire this data?** ##
  
 From 1991 through 2017, the YRBSS has collected data from more than 4.4 million high school students in more than 1,900 separate surveys.YRBSS data sources include ongoing surveys as well as one-time national surveys, special-population surveys, and methods studies. The ongoing surveys include school-based national, state, tribal, and large urban school district surveys of representative samples of high school students and, in certain sites, representative state, territorial, and large urban school district surveys of middle school students. 
 
 https://www.cdc.gov/healthyyouth/data/yrbs/data.htm
 
 
-## **In brief, outline your approach to solving this problem**##
+## **In brief, outline your approach to solving this problem** ##
 
 My approach to solving this problem is by obtaining all the data from 2007 to 2017 from the individual year to create a cumulative file with matching variables.
 After which I will have its data wrangled into its desired observation format, which will then be concatenated to a cumulative data frame. Further data wrangling will be used in order to calculate certain statistics, such as ratios, percentages, and trend, and to create data frames for constructing the predictive and classification models.
 
-## **What are your deliverables?**##
+## **What are your deliverables?** ##
 
 **Code**: code for my project with documentation will be uploaded to a GitHub repository.
 
