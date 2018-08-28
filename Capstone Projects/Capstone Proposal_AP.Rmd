@@ -5,7 +5,7 @@ date: "August 28, 2018"
 output: html_document
 ---
 
-## **Introduction**##
+## **Introduction** 
 
 #####The **Youth Risk Behavior Surveillance System (YRBSS)** was developed in 1990 to monitor health behaviors that contribute markedly to the leading causes of death, disability, and social problems among youth and adults in the United States. These behaviors, often established during childhood and early adolescence, include 
 
@@ -14,12 +14,12 @@ output: html_document
 •	Unhealthy dietary behaviors.  
 •	Inadequate physical activity.  
 
-###My area of focus will be based on 
+### My area of focus will be based on 
 
->#### **•	Alcohol and other drug use.     
+> #### ** •	Alcohol and other drug use.     
 •	Tobacco use.**
 
-## **What is the problem you want to solve?**##
+## **What is the problem you want to solve?** ##
 
 •	Determine the prevalence of health behaviors.  
 •	Assess whether health behaviors increase, decrease, or stay the same over time.  
