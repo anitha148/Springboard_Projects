@@ -1,0 +1,24 @@
+---
+title: "CP_Data Wrangling Report"
+author: "Anitha Pissay"
+date: "October 1, 2018"
+output: pdf_document
+---
+
+## **Report on Data Wrangling methods applied**
+
+##### My project primarily focuses on Tobacco, Alcohol and other drug use from 2007 to 2017. Data is found in different years/data files and hence had to be merged. For the same purpose a new datafile was created by extracting the responses to the questions related to the topics of my project of study. The challenge was that questions asked in the survey were labelled differently in each of the data file for different years, therefore posing a greater risk for errors. Hence the questions had to be visually mapped first amongst these files before merging them. For this purpose, a new set of variables were created, and the responses added as per the map to ensure the accuracy of the data. An extra variable that did not belong to any of the datafiles was created to identify the year from which the data was being extracted. 
+
+##### The final data file contains approximately 88000 rows with missing values in certain rows and columns for different variables.The responses are categorical variables whose responses are recorded in values i.e., numbers. For ease in data readability and understanding appropriate labels will be added for these values during the visualization methods and coding techniques applied.
+
+#### The variables are labelled Year and Q1 to Q38 within which  
+##### -	*‘Year’* identifies the year from which the responses in each row were extracted from.
+##### -	responses to questions related to demographics are in Q1 to Q8
+##### -	responses to questions related to Tobacco are in Q9 to Q19
+##### -	responses to questions related to Alcohol are in Q20 to Q25
+##### -	responses to questions related to drug use are in Q26 to Q38
+
+#### *Q14* and *Q15* asks about electronic cigarettes also known as e-cigarette and has data only for year 2015 and 2017.
+
+##### The entire data was merged on an excel file which was later converted to a .csv file. In R studio, the csv file was imported, and data wrangling method was applied starting with replacing the NA (missing values) with ‘0’.
+
