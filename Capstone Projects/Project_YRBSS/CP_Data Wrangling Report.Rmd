@@ -5,7 +5,7 @@ date: "October 1, 2018"
 output: pdf_document
 ---
 
-## **Report on Data Wrangling methods applied**
+## **Report on Data Wrangling methods applied** ##
 
 ##### My project primarily focuses on **Tobacco, Alcohol and other drug use** from 2007 to 2017. Data is found in different years/data files and hence had to be merged. For the same purpose a new datafile was created by extracting the responses to the questions related to the topics of my project of study. The challenge was that questions asked in the survey were labelled differently in each of the data file for different years, therefore posing a greater risk for errors. Hence the questions had to be visually mapped first amongst these files before merging them. For this purpose, a new set of variables were created, and the responses added as per the map to ensure the accuracy of the data. An extra variable that did not belong to any of the datafiles was created to identify the year from which the data was being extracted. 
 
