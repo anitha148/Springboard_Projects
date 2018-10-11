@@ -80,7 +80,14 @@ WSTable <- table(fit.km$cluster, wine$Type)
 WSTable
 # Would you consider this a good clustering?
 
-### Yes it is as it almost acurately maps the type of wine with its cluster group
+### We can quantify the agreement between type and cluster, using an adjusted Rank index 
+### provided by the flexclust package.
+
+install.packages("flexclust")
+library(flexclust)
+randIndex(WSTable)
+### Yes it is as it almost acurately maps the type of wine with its cluster group 
+### with an index of 0.897495 which is approximately 90%
 
 # Exercise 6:
 # * Visualize these clusters using  function clusplot() from the cluster library
@@ -89,6 +96,7 @@ library(cluster)
 clusplot(WS, fit.km$cluster, color = TRUE, shade = T, lines = 0)
 
 # * Would you consider this a good clustering?
+
 
 ### Yes . This clustering approach has a variability of 55.41%
  
